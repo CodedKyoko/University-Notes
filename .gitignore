@@ -1,0 +1,29 @@
+# if you're using syncthing this will ignore that
+University Notes Vault/.stfolder/
+# ignores trash
+University Notes Vault/.trash/
+# ignores the diffrent workspace files
+University Notes Vault/.obsidian/workspace-mobile.json
+University Notes Vault/.obsidian/workspace-mobile.sync-conflict-20240904-213917-QOI4UIF.json
+University Notes Vault/.obsidian/workspace.json
+University Notes Vault/.obsidian/hotkeys.json
+# messy for some reason
+University Notes Vault/.makemd/fileCache.mdc
+University Notes Vault/.makemd/superstate.mdc
+University Notes Vault/.obsidian/plugins/make-md/Spaces.mdb
+University Notes Vault/.obsidian/workspace.json
+.stfolder# if you're using syncthing this will ignore that
+University Notes Vault/.stfolder/
+# ignores trash
+University Notes Vault/.trash/
+# ignores the diffrent workspace files
+University Notes Vault/.obsidian/workspace-mobile.json
+University Notes Vault/.obsidian/workspace-mobile.sync-conflict-20240904-213917-QOI4UIF.json
+University Notes Vault/.obsidian/workspace.json
+University Notes Vault/.obsidian/hotkeys.json
+# messy for some reason
+University Notes Vault/.makemd/fileCache.mdc
+University Notes Vault/.makemd/superstate.mdc
+University Notes Vault/.obsidian/plugins/make-md/Spaces.mdb
+University Notes Vault/.obsidian/workspace.json
+.stfolder
