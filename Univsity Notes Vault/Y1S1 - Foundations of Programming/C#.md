@@ -45,14 +45,18 @@ Variables a named storage location for a piece of data.
 
 #### Declaration:
 
-Decleration is how we make a variable, we must specify the type of data in C# and we cannot change it later.
+Deceleration is how we make a variable, we must specify the type of data in C# and we cannot change it later.
 
 > `int` is for integers (whole numbers)
-> `string` is for text (multiple charachters)
+> `string` is for text (multiple characters)
+
+`string varname`
 
 #### Assignment:
 
 Assignment allows us to give data to the variable, using `=` sign.
+
+`varname = 12`
 
 #### Example:
 
@@ -65,15 +69,16 @@ The above 2 steps can be done in one line like such; `int varname = 12` creates 
 
 ## Data Type Conversion
 
-> [!Convert Class]
->C# Provides the `Convert` Class, You can use its methods e.g `.ToInt32();` which will convert the inputted data into type 32 bit Integer.
+> [!Explicit Conversion]
+>> [!Convert Class]
+>>C# Provides the `Convert` Class, You can use its methods e.g `.ToInt32();` which will convert the inputted data into type 32 bit Integer.
+>
+>>[!Parsing]
+>>`int newData = int.Parse(data);` will attempt to turn the data inside the Parse function into an int
 
->[!Parsing]
->`int newData = int.Parse(data);` will attempt to turn the data inside the Parse function into an int
-
->[!Implicit]
+>[!Implicit Conversion]
 >Implicit Conversion can only happen when no data can be lost. Ie converting an `int` to a `long` or converting a `char` to a `string`. Implicit conversion is as the name implies; complit; e.g
->```
+>```cs
 >int mew = 32;
 >long meow = mew;
 >```
@@ -81,8 +86,7 @@ The above 2 steps can be done in one line like such; `int varname = 12` creates 
 
 >[!Casting]
 >Casting is very simple:
->```
->
+>```cs
 >long meow = 32;
 >
 >int mew = (int) meow;

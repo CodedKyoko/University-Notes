@@ -1,5 +1,5 @@
 >[!Constants]
-> Constants are used for variables that should not be changed, they can be created by adding the keyword "const" at the start of variable decleration:
+> Constants are used for variables that should not be changed, they can be created by adding the keyword "const" at the start of variable deceleration:
 > `const bool meow = true;`
 
 >[!var]
@@ -88,7 +88,7 @@
 
 > [!Scientific Notation]
 > This is simple stupid simple, big or small numbers can be represented as powers of e; which is a short hand for 10
-> 1.5e6 = ${}1.5\times10^{6}{}$
+> ${}1.5\text{e}6 = 1.5\times 10^{6}{}$
 
 ## Character and Text
 
