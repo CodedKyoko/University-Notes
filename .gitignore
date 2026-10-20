@@ -1,29 +1,18 @@
-# if you're using syncthing this will ignore that
-University Notes Vault/.stfolder/
-# ignores trash
-University Notes Vault/.trash/
-# ignores the diffrent workspace files
-University Notes Vault/.obsidian/workspace-mobile.json
-University Notes Vault/.obsidian/workspace-mobile.sync-conflict-20240904-213917-QOI4UIF.json
-University Notes Vault/.obsidian/workspace.json
-University Notes Vault/.obsidian/hotkeys.json
-# messy for some reason
-University Notes Vault/.makemd/fileCache.mdc
-University Notes Vault/.makemd/superstate.mdc
-University Notes Vault/.obsidian/plugins/make-md/Spaces.mdb
-University Notes Vault/.obsidian/workspace.json
-.stfolder# if you're using syncthing this will ignore that
-University Notes Vault/.stfolder/
-# ignores trash
-University Notes Vault/.trash/
-# ignores the diffrent workspace files
-University Notes Vault/.obsidian/workspace-mobile.json
-University Notes Vault/.obsidian/workspace-mobile.sync-conflict-20240904-213917-QOI4UIF.json
-University Notes Vault/.obsidian/workspace.json
-University Notes Vault/.obsidian/hotkeys.json
-# messy for some reason
-University Notes Vault/.makemd/fileCache.mdc
-University Notes Vault/.makemd/superstate.mdc
-University Notes Vault/.obsidian/plugins/make-md/Spaces.mdb
-University Notes Vault/.obsidian/workspace.json
-.stfolder
+# Stores ui information, like tabs, unecessary
+**/.obsidian/workspace.json
+# Obsidians trash folder
+**/.trash
+
+# Folder for Make.md
+# Just contains two databases
+**/.makemd
+# another database?
+**/.obsidian/plugins/make-md/Spaces.mdb
+
+# Incase syncthing is used anywhere
+**/.stfolder
+*.sync-conflict-*
+
+# The textbooks
+
+**/computer-architecture-from-the-stone-age-to-the-quantum-age-1nbsped-9781718502864-9781718502871_compress.pdf
