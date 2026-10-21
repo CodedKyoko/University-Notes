@@ -39,7 +39,9 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "/",
-    "//Y1S1 - Computer Architecture"
+    "//Y1S1 - Computer Architecture",
+    "//Y1S1 - Foundations of Programming",
+    "//Y1S1 - Professional Development"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
