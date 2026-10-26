@@ -70,7 +70,7 @@ int absValue = value >= 0 ? value : -value
 // absValue will always be positive
 ```
 
-In this case, if value is less than 0, its negative value is assigned to to absValue (which makes a positive number), if its more than 0, it will assign itself to absValue (so its a positive number)
+In this case, if value is less than 0, its negative value is assigned to to absValue (which makes a positive number), if its more than 0, it will assign itselfa to absValue (so its a positive number)
 
 # Switch
 

@@ -1,4 +1,4 @@
-Lecturer(S): Chaasles Fox
+Lecturer(S): Charles Fox
 
 Each session has two 50 minute halves.
 
@@ -19,5 +19,7 @@ Test rules: Closed book, calculator allowed.
 
 Open source system assesable, commercial systems non assesable.
 Temporal order assesable, spesific dates non assesable.
+
+[Charles Fox Computer Architecture GitLab](https://gitlab.com/charles.fox/comparch/)
 
 RISC-V Emulator; https://github.com/andrescv/Jupiter
