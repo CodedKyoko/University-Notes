@@ -39,7 +39,9 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "/",
-    "//Y1S1 - Professional Development"
+    "//Y1S1 - Professional Development",
+    "//Y1S1 - Foundations of Programming",
+    "//Y1S1 - Computer Architecture"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
@@ -49,7 +51,8 @@
   "hiddenExtensions": [
     ".mdb",
     "_assets",
-    "_blocks"
+    "_blocks",
+    "Tags"
   ],
   "inlineBacklinks": false,
   "inlineContext": true,
