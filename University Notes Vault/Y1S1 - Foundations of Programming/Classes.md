@@ -70,3 +70,42 @@ Infinite objects can be created from a single class; they all have their own uni
 >>}
 >>```
 
+### This keyword
+
+this.Variable refers to the value of this objects variable
+
+>[!Example]
+>```cs
+>public class Student  {  
+>	public string Name = "";  
+>	public void Introduce()  {  
+>		Console.WriteLine($"Hello, I am {this.Name}");  
+>	}  
+>}
+>```
+>
+>When called by `Alice` via `Alice.Introduce` `this.Name` will refer to Alice's Object, the same for `Bob`, `Dahlia` etc 
+
+
+### Constructors
+
+A constructor is a special member used to initialise a new instance of an obect
+
+>[!Example]
+>```cs
+>public class Student  {  
+>	public string Name;  
+>	public int Score;  
+>	public Student(string name, int score)  {  
+>		Name = name;  
+>		Score = score;  
+>	}  
+>}
+>```
+>
+>```cs
+>Student alice = new Student("Alice", 85);
+>```
+>
+>This allows you to create a new instance of the object and immediately pass in new Values for its attributes.
+
